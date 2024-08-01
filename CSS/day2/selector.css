@@ -1,0 +1,35 @@
+/**{
+    background-color: red;
+    color: greenyellow;
+}
+h1{
+    color: lawngreen;
+}
+div{
+    color: red;
+    background-color: yellow;
+
+}*/
+#element1
+{
+    color: red;
+}
+#spanelement1{
+    color: blueviolet;
+}
+.big_size{
+    width: 400px;
+    height: 400px;
+}
+.med_size{
+    width: 200px;
+    height: 200px;
+}
+.sm_size{
+    width: 100px;
+    height: 100px;
+}
+.bg_blue{
+    background-color: blue;
+}
+
