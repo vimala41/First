@@ -6,28 +6,25 @@ div{
 }
 .h1{
     color: blue;
-    text-align: center;
 }
 .h2{
     color:orangered;
-    text-align: center;
 }
 .h3{
     color: orange;
-    text-align: center;
+   
 }
 .h4{
     color:blue;
-    text-align: center;
+  
     
 }
 .h5{
     color: green;
-    text-align: center;
+   
 }
 .h6{
     color: orangered;
-    text-align: center;
 }
 marquee{
     float: left;

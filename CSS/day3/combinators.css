@@ -1,0 +1,58 @@
+#GrandFather{
+    background-color: brown;
+    width: 100%;
+    height: 600px;
+    font-size: 50px;
+    color: white;
+}
+#Father,#Babai{
+    background-color: blueviolet;
+    float: left;
+    width: 50%;
+    height: 60%;
+}
+#Babai{
+    background-color: cadetblue;
+}
+#Kid1,#Sib1,#Sib2,#Cousin1,#Cousin2,#Cousin3{
+    width: 33%;
+    height: 60%;
+    background-color: orange;
+    float: left;
+}
+#Sib1
+{
+    background-color: orangered;
+}
+#Sib2{
+    background-color: red;
+}
+#Cousin1{
+    background-color: darkcyan;
+}
+#Cousin2{
+    background-color: blueviolet;
+}
+#Cousin3{
+    background-color: chocolate;
+}
+/*Decendent Selector*/
+#Babai #Cousin1{
+    background-color: lawngreen;
+}
+/*Child Selector*/
+#Babai>#Cousin2
+{
+    background-color: aqua;
+}
+/*Adjacent Selector*/
+#Father+#Babai{
+    background-color: crimson;
+}
+#Kid1~#Sib1
+{
+    background-color: darkgreen;
+}
+#Cousin1~#Cousin3{
+    background-color: lightblue;
+}
